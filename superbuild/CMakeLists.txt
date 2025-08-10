@@ -237,7 +237,7 @@ if (BUILD_OPENVDB)
 
     set(BOOST_VERSION "1.84.0")
     string(REPLACE "." "_" BOOST_FILE_BASE "${BOOST_VERSION}")
-    set(BOOST_BASE_URL "https://boostorg.jfrog.io/artifactory/main/release/${BOOST_VERSION}/source/boost")
+    set(BOOST_BASE_URL "https://archives.boost.io/release/${BOOST_VERSION}/source/boost")
     set(_BOOST_URL "${BOOST_BASE_URL}_${BOOST_FILE_BASE}.tar.gz")
     set(_BOOST_HASH "a5800f405508f5df8114558ca9855d2640a2de8f0445f051fa1c7c3383045724")
     set(BOOST_URL "${_BOOST_URL}" CACHE STRING "URL of the boost archive.")
